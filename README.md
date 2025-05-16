@@ -41,6 +41,9 @@ Created by Dominic Pajak, Synaptics Inc. with thanks to Aditya Sahu, Andrew Dugg
 ### Steps
 
 1. Clone this repository onto the SL1680 board.
+    ```bash
+    git clone https://github.com/asahu-synaptics/on-device-ai-assistant.git
+    ```
 2. Start a terminal session and navigate to the project directory:
     ```bash
     cd on-device-assistant
@@ -53,12 +56,12 @@ Created by Dominic Pajak, Synaptics Inc. with thanks to Aditya Sahu, Andrew Dugg
     ```bash
     source .venv/bin/activate
     ```
-6. Download the models and pre-generate WAV files for faster responses:
+5. Download the models and pre-generate WAV files for faster responses:
     ```bash
     python3 run_first.py
     ```
     
-5. Run assistant:
+6. Run assistant:
     ```bash
     python3 main.py
     ```
