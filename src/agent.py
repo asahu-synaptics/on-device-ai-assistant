@@ -52,7 +52,7 @@ class Agent:
     def preprocess_text(self, text):
         """Preprocess text by tokenizing, normalizing, and removing stop words."""
         text = text.lower()
-        text = re.sub(r'[^a-z0-9\\s]', '', text)  # Remove non-alphanumeric characters
+        text = re.sub(r'[^a-z0-9\s]', '', text) # Remove non-alphanumeric characters
         tokens = text.split()
         filtered_tokens = [token for token in tokens if token not in self.stop_words]
         return filtered_tokens
