@@ -26,7 +26,6 @@ This project builds upon the work and contributions of many open source AI proje
 2. **Response Generation**: Context-specific Q&A matching using an encoder-only [language model](https://www.sbert.net/docs/quickstart.html) (future support for small LLM planned).
 3. **Text-to-Speech**: [Piper](https://github.com/rhasspy/piper) by the Open Home Foundation.
 
-Created by Dominic Pajak, Synaptics Inc. with thanks to Aditya Sahu, Andrew Duggan, Dharini Subramaniam, Karthik Shanmuga Vadivel, Lorenzo Keller, Manjunath Duntoor, Michael Pan, and Sauryadeep Pal.
 
 ---
 
